@@ -1,0 +1,42 @@
+/* Add these styles to your CSS file */
+
+.increase-btn,
+.decrease-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  margin: 0 5px;
+}
+
+.increase-btn {
+  background-color: rgb(75, 185, 75);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.decrease-btn {
+  background-color: rgb(169, 19, 19);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.increase-btn:hover{
+    background-color: rgb(15, 132, 36);
+    /* border: 2px solid black; */
+}
+.decrease-btn:hover {
+  background-color: rgb(104, 13, 13);
+  /* border: 2px solid black; */
+}
+
+.increase-btn:focus,
+.decrease-btn:focus {
+  outline: none;
+}
+
+/* Add any additional styling you need */
